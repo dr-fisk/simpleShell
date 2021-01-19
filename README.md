@@ -1,2 +1,2 @@
 # simpleShell
-This is an implementation of the unix shell within the command line. This shell is capable of reading user input, and the input is then run through a state machine which handles which argument must be ran.
+This is an implementation of the unix shell within the command line. This shell is capable of reading user input, and the input is then run through a state machine which handles which argument must be ran. The shell has piping and redirection using fork(), pipe(), and open(). The shell has a built in cd and ls command. The ls is called 'sls' which displays the working directory along with the size of the files. To use the shell, simply run make, then run the executable, and use the shell to your heart's content!
